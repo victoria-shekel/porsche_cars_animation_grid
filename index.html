@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Porsche - автомобили</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container">
+            <nav class="main-nav">
+                <div class="logo-line">
+                    <a href="" class="logo"><img src="img/porsche-logo.svg" alt="Лого марки Porsche" class="logo_img"></a>
+                </div>
+                <ul class="main-menu menu">
+                    <li class="main-menu_item"><a href="#" class="main-menu_link">Модели</a></li>
+                    <li class="main-menu_item"><a href="#" class="main-menu_link">Новые автомобили</a></li>
+                    <li class="main-menu_item"><a href="#" class="main-menu_link">Автомобили с&nbsp;пробегом</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="page">
+        <div class="scene">
+            <div class="car animated fadeInLeftBig">
+                <!--Я специально указываю тень первой, чтоб сохранить контекст наложения. Она должна быть ПОД всеми остальными картинками-->
+                <img class="car_shadow" src="img/car-shadow.png" alt="Тень от автомобиля Porsсhe">
+                <!--Переднее колесо-->
+                <div class="car_wheel-front">
+                    <img src="img/wf-assets/rotor.png" alt="" class="car_wheel-front-rotor wheel-spin">
+                    <img src="img/wf-assets/caliper.png" alt="" class="car_wheel-front-caliper">
+                    <img src="img/wf-assets/disc.png" alt="" class="car_wheel-front-disc wheel-spin">
+                </div>
+                <!--Заднее колесо. Визуально front и rear немного отличаются. Поэтому используем разные картинки-->
+                <div class="car_wheel-rear">
+                    <img src="img/wr-assets/rotor.png" alt="" class="car_wheel-rear-rotor wheel-spin">
+                    <img src="img/wr-assets/caliper.png" alt="" class="car_wheel-rear-caliper">
+                    <img src="img/wr-assets/disc.png" alt="" class="car_wheel-rear-disc wheel-spin">
+                </div>
+                <img  class="car_body car-shake" src="img/car_body.png" alt="Каркас зеленого цвета - автомобиль Porsсhe">
+            </div>
+        </div>
+
+        <section class="model_range">
+            <div class="container-fluid">
+                <h2 class="headline">Модельный ряд</h2>
+                <div class="models">
+                    <div class="model_item">
+                        <img src="img/small-718.webp" alt="Автомобиль марки Porsche, модель 718" class="model_img">
+                        <div class="model_info">
+                            <div class="model_text">
+                                <div class="model_name">718</div>
+                                <div class="model_price">&nbsp;4&nbsp;180&nbsp;000&nbsp;</div>
+                            </div>
+                            <div class="model_link">
+                                <a href="#" class="btn btn-default">Конфигуратор</a>
+                                <a href="#" class="btn btn-bordered">Обзор</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="model_item">
+                        <img src="img/small-911.webp" alt="Автомобиль марки Porsche, модель 911" class="model_img">
+                        <div class="model_info">
+                            <div class="model_text">
+                                <div class="model_name">911</div>
+                                <div class="model_price">&nbsp;7&nbsp;590&nbsp;000</div>
+                            </div>
+                            <div class="model_link">
+                                <a href="#" class="btn btn-default">Конфигуратор</a>
+                                <a href="#" class="btn btn-bordered">Обзор</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="model_item model_main">
+                        <img src="img/small-taycan.webp" alt="Автомобиль марки Porsche, модель Taycan" class="model_img">
+                        <div class="model_info">
+                            <div class="model_text">
+                                <div class="model_name">Taycan</div>
+                                <div class="model_price">&nbsp;7&nbsp;793&nbsp;000&nbsp;</div>
+                            </div>
+                            <div class="model_link">
+                                <a href="#" class="btn btn-default">Конфигуратор</a>
+                                <a href="#" class="btn btn-bordered">Обзор</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="model_item">
+                        <img src="img/small-panamera.webp" alt="Автомобиль марки Porsche, модель Panamera" class="model_img">
+                        <div class="model_info">
+                            <div class="model_text">
+                                <div class="model_name">Panamera</div>
+                                <div class="model_price">&nbsp;6&nbsp;651&nbsp;000&nbsp;</div>
+                            </div>
+                            <div class="model_link">
+                                <a href="#" class="btn btn-default">Конфигуратор</a>
+                                <a href="#" class="btn btn-bordered">Обзор</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="model_item">
+                        <img src="img/small-macan.webp" alt="Автомобиль марки Porsche, модель Macan" class="model_img">
+                        <div class="model_info">
+                            <div class="model_text">
+                                <div class="model_name">Macan</div>
+                                <div class="model_price">&nbsp;4&nbsp;128&nbsp;000&nbsp;</div>
+                            </div>
+                            <div class="model_link">
+                                <a href="#" class="btn btn-default">Конфигуратор</a>
+                                <a href="#" class="btn btn-bordered">Обзор</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="model_item">
+                        <img src="img/small-cayenne.webp" alt="Автомобиль марки Porsche, модель Cayenne" class="model_img">
+                        <div class="model_info">
+                            <div class="model_text">
+                                <div class="model_name">Cayenne</div>
+                                <div class="model_price">&nbsp;4&nbsp;999&nbsp;000&nbsp;</div>
+                            </div>
+                            <div class="model_link">
+                                <a href="#" class="btn btn-default">Конфигуратор</a>
+                                <a href="#" class="btn btn-bordered">Обзор</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
